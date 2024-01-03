@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: black;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    border: 5px groove green;
+    width: 100%;
+}
+#static, #absolute{
+    background-color: black;
+    color: green;
+    /*by default position of an element is static that is element will be placed right on the top left side
+    in case of static position we cannot apply properties like top, right, bottom, left.
+    */
+}
+
+#absolute{
+    position: absolute;
+    top: 80px;
+    /*here positioning will happen from the edges of the screen in absolute position we can apply top, left, right and bottom values.
+    If we we position absolute then the element will be removed from the normal flow of of the document
+    The space space will not be left on the webpage it will be occupied by the immediate next element.
+    */
+}
+#fixed{
+    position: fixed;
+    top: 155px;
+    /*
+    If position is set to fixed the element will be positioned based upon the edges of the screen.
+    in fixed position we can apply properties like top, right, bottom and left.
+    the element will be removed from the normal flow of document and the space will be removed from the webpage.
+    space will be occupied by the next element
+    */
+}
+
+
+#relative{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /*
+    if position is set to relative the positioning of an element will happen from its original position.
+    here we can give properties like top, right, bottom and left.
+    here space will not be removed it will be present. 
+    */
+}
+button {
+    background-color: black;
+    color: green;
+    padding: 10px;
+    border: 5px groove green;
+    border: none;
+    border-radius: 5px;
+    position: sticky;
+    top: 500px;
+    left: 100px;
+    /*
+    here sticky position is combination of relative and fixed
+    left right 
+    */
+}

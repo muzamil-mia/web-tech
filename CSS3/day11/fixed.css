@@ -1,0 +1,18 @@
+ol{
+    list-style-type: none;
+    border: 2px solid;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /* position: fixed; */
+    position: sticky;
+    top: 0%;
+    margin-top: 0px;
+    
+}
+section{
+   padding: 50px;
+}

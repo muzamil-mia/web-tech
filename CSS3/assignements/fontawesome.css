@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-header{
+    height: 100px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+#app-header{
+    width: 90%;
+    height: inherit;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ol{
+    display: flex;
+    list-style-type: none;
+
+}
+.app-header-links{
+    /* border: 1px solid blue; */
+    width: 40px;
+    height: 30px;
+}
+.app-header-links svg{
+    font-size: 35px;
+    fill: black;
+    width: 30px;
+    
+}
+.app-header-account svg{
+    height: 2em;
+    fill: currentColor;
+    fill: #000;
+   
+}
+.nav-links ol li{
+   padding: 10px;
+  position: relative;
+  right: 200px;
+  /* border: 1px solid red; */
+  margin: 0 5px;
+  font-size: 20px;
+}
+#main{
+    background-image: url("https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main #main1{
+    height: inherit;
+    background: #fff;
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+}
+#main h1{
+    /* border: 2px solid red; */
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 80px;
+    font-family:  fa-livory, "Georgia", "Times New Roman", "Times", serif;
+}
+#main1 p{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+#buttons{
+    /* border: 2px solid red; */
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+}
+#main button  svg{
+    height: 1em;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+#buttons button {
+    margin: 0 5px;
+    border-width: 0.125em;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 2px rgb(46, 46, 70);
+}
+#buttons button span{
+    font-size: 14px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#buttons button + button{
+    background-color: #ffd43b;
+}
+.btn:hover{
+    background-color: rgb(149, 190, 215);
+}
+#buttons button + button:hover{
+    background-color: rgb(198, 198, 18);
+}
+
+#container{
+    /* border: 2px solid red; */
+   width: 80%;
+   margin: auto;
+   margin-top: 60px;
+}
+#container #video-container {
+    position: relative;
+    width: 100%;
+    /* border: 2px solid green; */
+    padding-bottom: 56.25%;
+    
+}
+
+#video-container iframe{
+  width: 100%;
+  height: 400px;
+}
+
+section {
+    height: 40vh;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#block1, #block2, #block3 {
+    height: 180px;
+}
+section #block1{
+    width: 430px;
+    border: 2px solid #6741d9;
+    margin: 10px;
+    border-radius: 10px;
+}
+#block1 span {
+    border: none;
+    padding: 5px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #6741d9;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    left: 320px;
+    bottom: 8px;
+}
+
+section #block1 h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+   
+}
+section #block1 p{
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: start;
+    padding-left: 0px;
+    /* border: 1px solid green; */
+}
+
+section #block2{
+    width: 300px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 2px #8793ad;
+    
+}
+#block2:hover{
+    box-shadow: 0 3px 2px yellow;
+}
+section #block3 {
+    border-radius: 10px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin: 10px;
+    box-shadow: 0 3px 2px #8793ad;
+}
+#block3:hover{
+    box-shadow: 0 3px 2px rgb(211, 109, 216);
+}
+section .links {
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    
+}
+.links a{
+    margin: 0 5px;
+    text-decoration: dashed;
+}
+#block2 .image{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 10px 0 0;
+    /* border: 2px solid red; */
+    background-color: #152d61;
+}
+
+#block2 h3{
+    text-align: center;
+    padding-top: 15px;
+}
+#block2 .image> svg{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 1em;
+   font-size: 3em;
+   fill: black;
+   overflow: visible;
+   vertical-align: -0.125em;
+}
+#block3 .image{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgb(211, 109, 216);
+}
+#block3 h3{
+    text-align: center;
+    padding-top: 15px;
+}
+#block3 .image>svg{
+    padding-top: 50px;
+    height: 1em;
+    font-size: 5em;
+}
+.btn1{
+    /* border: 2px solid red; */
+    padding: 2px;
+    border: none;
+    padding: 5px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #6741d9;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    left: 170px;
+}
+#block3 .image span {
+    position: relative;
+    left: 120px;
+   bottom: 70px;
+}
+.column{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.column a{
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+#container1{
+    height: 100vh;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+#container1 {
+    display: flex;
+}
+#container1>div{
+    border: 2px solid red;
+    height: inherit;
+    width: 50%;
+}
+.form h2{
+    border: 1px solid red;
+    letter-spacing: 5px;
+    color: #ac8f0b;
+    font-weight: 100;
+    text-align: start;
+    font-weight: bold;
+}
+.form h2 + h2{
+    border: 1px solid red;
+    text-align: start;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 30px;
+    columns: black;
+}
+ p {
+    font-size: 10px;
+}

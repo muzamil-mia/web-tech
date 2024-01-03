@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1{
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Form</legend>
+        <form action="http://www.google.com">
+            <table>
+                <tr>
+                    <td><label for="firstname">First Name</label></td>
+                    <td><input type="text" max-length="5" pattern=[a-z] id="firstname" autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">LastName:</label></td>
+                    <td><input type="text" id="lastname" autofocus value="hello"></td>
+                </tr>
+                <!--<tr>
+                    <td><label for="dob">DOB:</label></td>
+                    <td><input type="number" style="width: 50px;"></td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <label for="gender" id="gen">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="male" name="gen">Male
+                        <input type="radio" id="female" name="gen">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Mobile No:</label></td>
+                    <td><input type="text" id="tel" name="tel" placeholder="phone number" minlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">Address:</label></td>
+                    <td><textarea name="" id="add" cols="30" rows="10" ></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" id="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="pincode">Pin code</label></td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td><input type="text" id="state"></td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies</label></td>
+                    <td>
+                        
+                        <input type="checkbox">Drawing
+                        <input type="checkbox" id="swim">Swimming
+                        <input type="checkbox" id="sing">Singing
+                        <br>
+                        <label for="other">Other</label>
+                        <input type="text" id="other">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="qual">Qualification:</label>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>sl.no</th>
+                                <th>Exam</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>YOP</th>
+                                <tr>
+                                    <td>01</td>
+                                    <td>Class X</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>Class II</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>Class IV</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>Class VI</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course:</label></td>
+                    <td>
+                        <!--<label for="bca">BCA</label>
+                        <input type="checkbox">
+                        <label for="bca">B.com</label>
+                        <input type="checkbox">
+                        <label for="bca">B.sc</label>
+                        <input type="checkbox">
+                        <label for="bca">B.A</label>
+                        <input type="checkbox">-->
+                        <select name="" id="" style="padding: 5px; margin-top: 5px;">
+                            <option value="mca">MCA</option>
+                            <option value="bca">BCA</option>
+                            <option value="btech">BTech</option>
+                            <option value="bcom">BCom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <!--here in the below case the value of the attribute id in datalist tag must have same value as the value of list attribute in input tag-->
+                    <td><label for="">Browser</label></td>
+                    <td>
+                        <input list="browser">
+                        <datalist id="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="mozila">Mozila</option>
+                            <option value="opera">Opera</option>
+                            <option value="brave">Brave</option>
+                            <option value="edge">Edge</option>
+                            <option value="safari">Safari</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                   <table class="table1">
+                    <tr>
+                        <td><button type="submit">submit</button></td>
+                        <td><button type="reset">reset</button></td>
+                    </tr>
+                   </table>
+                </tr>
+                <tr>
+                    <td><label for="image">Image</label></td>
+                    <td><input type="image" src="../day7/images/bird-8336583_1280.jpg" style="height: 30px; width: 30px;"></td>
+                </tr>
+               <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="password" pattern="[A-Z]{4}[a-z]{4}[0-9]{4}" title="pattern is 123345"></td>
+               </tr>
+            </table>
+        </form>
+        
+    </fieldset>
+</body>
+</html>

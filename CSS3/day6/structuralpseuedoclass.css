@@ -1,0 +1,32 @@
+/*
+h1:first-child{
+    background-color: bisque;
+}
+*/
+
+/*
+h1:first-of-type{
+    background-color: blue;
+}
+*/
+
+/*
+h1:last-child{
+    background-color: blueviolet;
+}
+*/
+
+h1:nth-child(1){
+    background-color: green
+}
+h1:nth-child(even){
+    color: rgb(5, 130, 33);
+}
+h1:last-of-type{
+    color: chocolate;
+}
+*{
+    background-color: rgb(17, 5, 5);
+    color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

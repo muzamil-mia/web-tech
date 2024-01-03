@@ -1,0 +1,58 @@
+
+/*Dynamic pseudo class*/
+a:link{
+    color: darkorange;
+}
+a:active{
+    color: red;
+    background-color: black;
+}
+a:visited{
+    color: black;
+}
+
+input:checked[type="radio"]{
+    height: 20px;
+    width: 20px;
+    accent-color: yellow;
+}
+
+input[type="checkbox"]:checked{
+    height: 20px;
+    width: 30px;
+    accent-color: purple;
+}
+
+input:focus[type="text"]{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    caret-color: rgb(88, 152, 14);
+}
+button:hover{
+    color: black;
+    background-color: red;
+    padding: 5px;
+    padding: 3px;
+    transition-duration:2s;
+}
+
+/*structural pseudo class*/
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: orange;
+}
+
+li:nth-child(2){
+    color: rgb(3, 253, 115);
+}
+
+li:first-of-type{
+    color: blueviolet;
+}
+li:last-of-type{
+    color: cadetblue;
+}

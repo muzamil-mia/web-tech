@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 60vh;
+    background: url(https://cdn.pixabay.com/index/2023/12/29/02-43-56-604_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#right svg{
+    font-size: 20px;
+    fill: white;
+}
+#right ol{
+    display: inline-flex;
+    width: 300px;
+    /* border: 2px solid green; */
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+ol  li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}

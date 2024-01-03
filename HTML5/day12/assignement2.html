@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>form</legend>
+      <form action="">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </li>
+          <li>
+            <label for="pass">Password:</label>
+            <input type="text" id="pass" />
+          </li>
+          <li>
+            Please check all the emotions that apply to you
+            <ul>
+              <li>
+                <label for="angry">Angry</label>
+                <input type="checkbox" />
+              </li>
+              <li>
+                <label for="sad">Sad</label>
+                <input type="checkbox" />
+              </li>
+              <li>
+                <label for="happy">Happy</label>
+                <input type="checkbox" />
+              </li>
+            </ul>
+          </li>
+          <li>
+            How satisfied were you with our services
+            <ul>
+              <li>
+                <label for="sat">Satisfied</label>
+                <input type="checkbox" />
+              </li>
+              <li>
+                <label for="ok">Ok</label>
+                <input type="checkbox" />
+              </li>
+              <li>
+                <label for="happy">Happy</label>
+                <input type="checkbox" />
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="comments">Further Comments: </label>
+            <input type="text" id="comments" style="height: 40px" />
+          </li>
+          <li>
+            <label for="photo">Bio Photo:</label> <input type="text" />
+            <input type="file" style="border-radius: 10px; padding: 10px" />
+          </li>
+          <li><label for="location">Location Visited:</label>
+            <select name="select" id="select" style="padding: 5px; border-radius: 5px;">
+                <option value="option1">India</option>
+                <option value="option2">Pakistan</option>
+                <option value="option3">Palestine</option>
+                <option value="option4">Dubai</option>
+            </select>
+        </li>
+        </ul>
+        <button style="padding: 5px; border-radius: 10px" type="submit">
+          submit
+        </button>
+      </form>
+    </fieldset>
+  </body>
+</html>

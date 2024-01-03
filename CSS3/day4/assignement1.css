@@ -1,0 +1,45 @@
+
+div > ol > li {
+    background-color: pink;
+}
+div > ol > li + li {
+    background-color: brown;
+}
+div > ol > li > ol > li > ul > li {
+    background-color: green;
+}
+div > ol > li > ol > li > ul > li + li{
+    background-color: blue;
+}
+div > ol > li > ol > li > ul > li + li  + li{
+    background-color:  yellow;
+}
+
+div > ol > li > ol > li + li{
+    background-color: orange;
+}
+div > ol > li > ol > li + li + li{
+    background-color: crimson;
+}
+div > ol > li > ol > li + li + li > ol > li{
+    background-color: orange;
+}
+div > ol > li > ol > li + li + li > ol > li + li{
+    background-color: green;
+}
+div > ol > li > ol > li + li + li > ol > li > ul > li{
+    background-color:  yellow;
+}
+div > ol > li > ol > li + li + li > ol > li > ul > li + li{
+    background-color:  blue;
+}
+
+div > ol > li + li > ul > li {
+    background-color: yellow;
+}
+div > ol > li + li > ul > li + li {
+    background-color: crimson;
+}
+div > ol > li + li > ul > li + li + li {
+    background-color: red;
+}

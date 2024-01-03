@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .required::after{
+            content: "*";
+            color: red;
+        }
+        h3 {
+            color: red;
+        }
+        h2{
+            background-color: rgb(164, 196, 196);
+        }
+        input{
+            height: 30px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow property */
+       border: 1px solid #ccc;
+        }
+        form{
+            font-size: larger;
+            font-style: initial;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+        <h1>Create Your Account</h1>
+
+        <h3>* Required information</h3>
+        <h2>Basic Information</h2>
+        <table align="center" style="background-color: antiquewhite;">
+            <tr>
+                <td><label for="email" class="required">Email: </label></td>
+                <td><input type="email" id="email" required autofocus/></td>
+            </tr>
+            <tr>
+                <td><label for="pass" class="required">Password:</label></td>
+                <td><input type="password" id="pass" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass1">Retype Password <sup>*</sup></label></td>
+                <td><input type="password" id="pss1" required></td>
+            </tr>
+            <tr>
+                <td><label for="fname" class="required">First Name</label></td>
+                <td><input type="text" id="fname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname" class="required">Last Name:</label></td>
+                <td>
+                    <input type="text" id="lname" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ph" class="required">Phone Number</label></td>
+                <td><input type="tel" required placeholder="000-000-0000"></td>
+            </tr>
+            <tr>
+                <td><label for="add" class="required">Address</label></td>
+                <td><textarea name="" id="" cols="21 rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="country">country: <sup style="color: red;">*</sup></label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="province" class="required">Province:</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="jammu">Jammu</option>
+                        <option value="ccccccc">aaaaaaaaaaaaaaaaaaa</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+       <h2>Education</h2>
+        <table align="center" style="background-color: antiquewhite;">
+            <tr>
+                <td><label for="school">School <sup style="color: red;">*</sup></label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="edu">Education Level <sup style="color: red;">*</sup></label></td>
+                <td><select name="" id="">
+                    <option value="Btech">Btech</option>
+                    <option value="value2">Mtech</option>
+                    <option value="value3">Bca</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <fieldset>
+                        <legend>Education Status</legend>
+                        <label for="grad" name = "grad"></label>
+                        <input type="radio" id="grad" name = "grad">Graduate
+                        <br>
+                        <label for="grad" name = "grad"></label>
+                        <input type="radio" id="grad" name = "grad">Post Graduate
+                        <br>
+                        <label for="grad" name = "grad"></label>
+                        <input type="radio" id="grad" name = "grad">Under Graduate
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <h2>Work Experience</h2>
+        <table align="center" style="margin-bottom: 10px; background-color: antiquewhite;">
+            <tr>
+                <td><label for="employer">Employer</label></td>
+                <td><input type="text" id="employer"></td>
+            </tr>
+            <tr>
+                <td><label for="job">Job Title</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="Jobduty">job Duty</label></td>
+                <td><textarea name="" id="" cols="20" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="year">Working Year</label></td>
+                <td>
+                    <input list="list">
+                    <datalist id="list">
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </datalist>
+                </td>
+            </tr>
+        </table>
+        <h2>Attachments</h2>
+        <table cellspacing="0px" style="margin-bottom: 100px;" align="center">
+            <tr>
+                <td><label for="attach">Attachment<sup>*</sup></label></td>
+                <td><input type="file" style="padding: 10px;"></td>
+            </tr>
+            <tr>
+               <td><Button style="padding: 10px; border-radius: 10px;">Submit</Button></td>
+               <td><Button type="reset" style="padding: 10px; border-radius: 10px;">Reset</Button></td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>

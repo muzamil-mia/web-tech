@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root{
+    --text-color: rgba(255, 255, 255, .8);
+    --bg-color: rgba(0,0,0,.8);
+    --text-heading: #0071E3;
+    --text-heading11:#1d1d1f;
+}
+
+#nav{
+    border: 2px solid;
+    height: 50px;
+    background-color: var(--bg-color);
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    width: 65%;
+    height: inherit;
+    margin: auto;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+
+#main{
+    border: 2px solid;
+    height: 600px;
+    background-image: url("https://www.apple.com/v/home/bi/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#main #heading1 {
+    /* border: 2px solid white; */
+    width: 450px;
+    height: 130px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#main #heading1 h1, h3{
+    color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#heading1 h1{
+    /* border: 1px solid red; */
+    font-size: 48px;
+    padding-left: 65px;
+    font-weight: 600;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#heading1 h3{
+    padding-left: 30px;
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#heading1 #links{
+    /* border: 1px solid red; */
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+#heading1 #links p {
+    padding-left: 15px;
+    font-size: 15px;
+    color: var(--text-heading);
+}
+#heading1 #links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sub-main{
+    border: 2px solid;
+    height: 600px;
+    background-image: url("https://www.apple.com/v/home/bi/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sub-main #heading2{
+     /* border: 1px solid red; */
+    width: 450px;
+    height: 130px;
+    margin: auto;
+    margin-top: 50px;
+}
+#sub-main #heading2 h1, h3{
+    color: var(--text-heading11);
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#sub-main #heading2 h1{
+    font-size: 48px;
+    padding-left: 65px;
+    font-weight: 600;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#sub-main #heading2 h3{
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

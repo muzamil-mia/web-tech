@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        margin-bottom: 10px;
+      }
+      form {
+        background-color: cornsilk;
+        border: 1px solid yellowgreen;
+        padding: 20px;
+        width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      input[type="text"] {
+        width: 100%;
+      }
+      input::placeholder{
+        color: #b44e4e;
+      }
+      input{
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+      }
+      input:hover{
+        border-color: #555;
+      }
+      input[type="radio"], input[type="checkbox"] {
+        margin-right: 5px;
+      }
+      label{
+        margin-bottom: 5px;
+        padding: 5px;
+        font-weight: bold;
+        text-align: right;
+      }
+      button {
+        align-items: center;
+      }
+      
+      input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- <div>
+        <form action="" >
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname">
+            <br>
+            <label for="tel">Ph: </label>
+            <input type="tel" id="tel" name="number">
+            <br>
+            <label for="mail">Email: </label>
+            <input type="text" id="mail" name="mail">
+            <br>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <label for="gender">Gender: </label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <br>
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age">
+            <br>
+            <label for="selectFruit">Select qualification: </label>
+<select style="margin-bottom: 10px;" id="selectFruit" name="fruit">
+    <option value="apple">Btech</option>
+    <option value="orange">Bcom</option>
+    <option value="banana">Bsc</option>
+    <option value="grape">Bca</option>
+</select>
+<br>
+<label for="hobbies">Hobbies: </label>
+<label for="cricket">Cricket</label>
+<input type="checkbox" id="cricket" name="hobbies">
+<label for="tt">TT</label>
+<input type="checkbox" id="tt" name="hobbies">
+<br>
+<label for="dob">DOB: </label>
+<input type="date" id="dob">
+<br>
+<label for="choose">
+    <input type="file" id="">
+</label>
+        </form>
+    </div> -->
+
+    <fieldset  style="">
+      <legend style="text-align: center; font-weight: bold; font-size: larger;">Register From</legend>
+      <form action="http://www.google.com" method="post">
+        <table >
+          <tr>
+            <td>
+              <label for="fname">First Name: </label>
+            </td>
+            <td>
+              <input type="text" id="fname" name="name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lname">Last Name: </label>
+            </td>
+            <td>
+              <input type="text" id="lname" name="name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="tel">Ph: </label>
+            </td>
+            <td>
+              <input type="tel" id="tel" name="number" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mail">Email: </label>
+            </td>
+            <td>
+              <input type="text" id="mail" name="mail" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">Password: </label>
+            </td>
+            <td>
+              <input type="password" id="pass" name="pass" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender  ">Gender: </label>
+            </td>
+            <td>
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="gender"/>
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="gender"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age">Age: </label>
+            </td>
+            <td>
+              <input type="number" id="age" name="age" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="hobbies">Hobbies: </label>
+            </td>
+            <td>
+              <label for="cricket">Cricket</label>
+              <input type="checkbox" id="cricket" name="hobbies" />
+              <label for="tt">Table Tens</label>
+              <input type="checkbox" id="tt" name="hobbies" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dob">DOB: </label>
+            </td>
+            <td><input type="date" id="dob" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="choose">Choose file:</label>
+            </td>
+            <td>
+              <input type="file" id="" />
+            </td>
+          </tr>
+          <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>

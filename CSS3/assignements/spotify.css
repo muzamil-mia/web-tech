@@ -1,0 +1,137 @@
+/*
+root{
+    --text-color:blue;
+}
+h1{
+    color: var(--text-color);
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: CircularSp, spotify-circular,Helvetica, Arial, sans-serif;
+}
+#nav{
+    border:2px solid;
+    height: 82px;
+    background-color: #000;
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    /* height: inherit; */
+    height: 80px;
+    width: 75%;
+    margin: auto;
+}
+#sub-nav span svg {
+    height: 3em;
+    margin-top: 15px;
+    fill: #fff;
+}
+#sub-nav p {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 33px;
+    left: 54%;
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 10px;
+    color: #fff;
+}
+#main{
+    border: 2px solid red;
+    height: 550px;
+    background-color: rgb(156, 47, 236);
+}
+
+#sub-main{
+    border: 2px solid black;
+    width: 75%;
+    height: inherit;
+    margin:auto;
+}
+#left h1{
+    color: #fff;
+    font-size: 38px;
+    margin-top: 70px;
+}
+
+#left h3{
+    color: #fff;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#left div{
+    margin-top: 35px;
+}
+#left div button{
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border: none;
+
+}
+
+#left div button + button{
+    background: none;
+    width: 200px;
+    border: 1px solid #fff;
+    color: white;
+    height: 50px;
+}
+#left div button + button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#right{
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f4305295fd5ab3084ce2135a8f80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 660px;
+    top: 210px;
+}
+
+#middle{
+    border: 1px solid green;
+    height: 550px;
+    background-color: #ffffff;
+}
+#sub-middle{
+    border: 2px solid red;
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+
+#sub-middle header{
+    border: 1px solid green;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    height: 95%;
+}
+#sub-middle header h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+}
+#block1{
+    border: 1px solid red;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+}

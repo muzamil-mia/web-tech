@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container1{
+    background: url('https://knight-bite.com/res/index/app-link-background.svg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+img{
+    margin: 0 100px;
+    height: 100px;
+    width: 200px;
+ }
+ #header{
+    height: 100px;
+ }
+.header{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    /* border: 1px solid red; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 500px;
+    /* border: 1px solid red; */
+    margin-top: 13px;
+}
+
+ul>a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 23px;
+    margin: 8px;
+    padding: 4px;
+}
+li{
+    list-style-type: none;
+    font-size: 23px;
+    margin: 8px;
+    padding: 4px;
+    color: white;
+}
+.heading1{
+  /* border: 1px solid red; */
+  position: relative;
+  top: 300px;
+  font-size: 5em;
+  margin-left: 70px;
+}
+h3{
+    color: white;
+}
+.button-container{
+    position: relative;
+    top: 350px;
+    left: 800px;
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pink-btn{
+    padding: 10px 20px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.stores-container{
+    border-top-left-radius: 1px solid red;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: center;
+}
+.ios-store{
+    width: 203px;
+    height: 68px;
+    background: url(https://knight-bite.com/res/index/ios-store.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 400px;
+    margin: 0 20px;
+}
+.android-store{
+    width: 210px;
+    height: 70px;
+    background: url('https://knight-bite.com/res/index/google-play-badge.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 400px;
+    margin: 0 10px;
+}
+.features{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin: 30px 0;
+}
+.features-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.feature-container{
+    width: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 10px;
+}
+.feature-container img {
+    height: 200px;
+    width: 300px;
+}
+.feature-description{
+    margin: 20px 0 40px 0px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+.banner1{
+    height: 900px;
+    display: flex;
+    background: url('https://knight-bite.com/res/index/banner-1.webp');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.banner1-header{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.banner{
+    background: url('https://knight-bite.com/res/about/banner.webp');
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.banner h1 {
+    /* border: 1px solid red; */
+    padding-left: 40vh 40px;
+    margin-left: 50px;
+    font-size: 40px;
+    width: 40vw;
+    line-height: 1.5em;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

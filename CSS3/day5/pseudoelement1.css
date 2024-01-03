@@ -1,0 +1,39 @@
+p::first-letter{
+    font-size: 30px;
+    color: rgb(252, 2, 2);
+    padding: 2px;
+    font-weight: bold;
+}
+h1::first-line{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2::after{
+    content: url("https://cdn.pixabay.com/photo/2023/12/07/11/11/girl-8435340_1280.png");
+}
+
+h3::before{
+    content:url("https://cdn.pixabay.com/photo/2023/12/07/11/11/girl-8435340_1280.png");
+}
+
+li::marker{
+    color: green;
+    content: "💜";
+}
+
+ol > li + li::marker{
+    content: "🖤";
+}
+ol > li + li + li::marker{
+    content: "💘";
+}
+ol > li + li + li + li::marker{
+    content: "🤍";
+}
+
+h3::selection{
+   background-color: black;
+   color: red;
+}

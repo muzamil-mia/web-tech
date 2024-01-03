@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+h1{
+   color: rgb(115, 255, 0);
+  background-color: rgb(78, 76, 76);
+  padding: 5px;
+  text-shadow: 5px 5px 6px rgb(17, 13, 5);
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  text-overflow: hidden;
+}
+h1::first-letter{
+    color: orange;
+}
+
+a{
+    font-size: larger;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+    text-decoration-line: none;
+}

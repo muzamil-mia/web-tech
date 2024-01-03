@@ -1,0 +1,40 @@
+#demo1{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    position: static;
+}
+#demo2{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+#demo3{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#demo4{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+}
+#demo5{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+}

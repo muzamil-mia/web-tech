@@ -1,0 +1,15 @@
+backgroundcolor{
+    background-color: #1877f2;
+    background-color: #42b72a;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color: #166ddf;
+}
+#button2:hover{
+    cursor: pointer;
+    background-color: #39a922;
+}
+boxshadow{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
