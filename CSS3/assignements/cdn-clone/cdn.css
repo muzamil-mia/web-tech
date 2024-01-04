@@ -54,6 +54,11 @@
     /* border: 2px solid red; */
     height: inherit;
 }
+#sub-nav ol + ol li {
+    
+    font-weight: 400;
+    
+}
 
 #main {
     /* border: 2px solid; */
@@ -62,7 +67,7 @@
     
 }
 #main h1{
-    font-family: monospace;
+    
     font-weight: 600;
     font-size: 40px;
     font-weight: bold;
@@ -73,6 +78,7 @@
 }
 
 #main h2{
+   
     font-weight: 300;
     color: #ebebeb;
     font-size: 24px;
