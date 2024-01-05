@@ -12,6 +12,7 @@ h1{
     padding: 0;
     box-sizing: border-box;
     font-family: CircularSp, spotify-circular,Helvetica, Arial, sans-serif;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
 }
 #nav{
     border:2px solid;
@@ -42,13 +43,13 @@ h1{
     color: #fff;
 }
 #main{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 550px;
     background-color: rgb(156, 47, 236);
 }
 
 #sub-main{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 75%;
     height: inherit;
     margin:auto;
@@ -56,7 +57,7 @@ h1{
 #left h1{
     color: #fff;
     font-size: 38px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 #left h3{
@@ -93,7 +94,7 @@ h1{
     cursor: pointer;
 }
 #right{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 400px;
     width: 400px;
     background-image: url(https://i.scdn.co/image/ab671c3d0000f4305295fd5ab3084ce2135a8f80);
@@ -106,32 +107,234 @@ h1{
 }
 
 #middle{
-    border: 1px solid green;
-    height: 550px;
+    /* border: 2px solid green; */
+    height: 450px;
     background-color: #ffffff;
 }
 #sub-middle{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: inherit;
-    width: 75%;
+    width: 95%;
     margin: auto;
 }
 
-#sub-middle header{
-    border: 1px solid green;
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-    height: 95%;
+#sub-middle header {
+    /* border: 2px solid red; */
+    width: 70%;
+   margin: auto;
+    margin-top: 60px;
+    
 }
-#sub-middle header h2 {
+#sub-middle header h2{
     text-align: center;
+    line-height: 32px;
+    letter-spacing: 1px;
     font-weight: 900;
+    padding: 0px;
     font-size: 28px;
+   
 }
-#block1{
-    border: 1px solid red;
+#sub-middle ul{
+    /* border: 2px solid red; */
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+    list-style: none;
+    gap: 5px;
+    display: flex;
+}
+ ul li {
+   height: inherit;
+   width: 300px;
+    /* border: 2px solid green; */
+ }
+
+ ul li div{
+   /* border: 2px solid; */
+   height: 150px;
+   width: 100%;
+ }
+ .top img{
+  width: 124px;
+  height: 125px;
+  margin-left: 80px;
+  margin-top: 10px;
+ }
+ .bottom p:first-child{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0px;
+    line-height: 1.3rem;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .bottom p:last-child{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px;
+    text-align: center;
+ }
+ .premium{
+    height: 700px;
+    /* border: 2px solid green; */
+    background-color: #efefef;
+ }
+ .premium .header {
     height: 150px;
-    width: 150px;
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+ }
+ .header h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 1;
+   padding-top: 60px;
+ }
+ .header h3{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 15px 0;
+    text-align: center;
+    padding: 0px;
+ }
+ .list{
+    /* border: 2px solid red; */
+    height: 40px;
+    
+ }
+ .list ul {
+    /* border: 2px solid green; */
+    display: flex;
+    list-style: none;
+    width: 280px;
+    margin: auto;
+    height: 30px;
+    margin-top: 10px;
+   
+ }li{
+    margin-right: 3px;
+    margin-top: 2px;
+    
+ }
+ .list ul .opt1 {
+    background-size: 50px 20px;
+    background-repeat: no-repeat;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b33cabea-d074-4f4f-8714-da6bdb2f067f_upi.svg);
+ }
+ .opt2{
+    background-image: url(https://content-tooling.spotifycdn.com/images/ea750340-f556-4682-b84c-326269cdd4bc_paytm.svg);
+    background-size: 50px 20px;
+    background-repeat: no-repeat;
+ }
+ .opt3{
+    background-image: url(https://content-tooling.spotifycdn.com/images/e549bf16-2051-43ac-b4d6-c5b8d7bf100d_visa.svg);
+    background-size: 50px 20px;
+    background-repeat: no-repeat;
+ }
+ .opt4{
+    background-image: url(https://content-tooling.spotifycdn.com/images/6d693019-628b-45b8-96ca-e3c294aed6aa_mastercard.svg);
+    background-size: 50px 20px;
+    background-repeat: no-repeat;
+ }
+ .opt5{
+    background-image: url(https://content-tooling.spotifycdn.com/images/468706f2-62af-48e4-80cb-9616b011f6c6_amex.svg);
+    background-size: 50px 20px;
+    background-repeat: no-repeat;
+ }
+ #plans{
+    /* border: 2px solid red; */
+   width: 90%;
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 80px;
+ }
+  .block{
+    background-color: white;
+    height: 400px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 8px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    width: 280px;
+    /* border: 2px solid red; */
+    border-radius: 10px 10px 10px 10px;
+ }
+ .block p{
+    margin: 0;
+ }
+ .block p:first-child{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid rgb(13, 114, 234);
+    padding: 5px;
+    width: 75%;
     margin-left: 10px;
-}
+    font-weight: 900;
+    color: rgb(13, 114, 234);
+ }
+ .block h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 5px 10px;
+    padding: 0px;
+ }
+ .block p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 5px 0px 0px 10px;
+ }
+ .block p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 10px;
+ }
+ hr{
+    width: 80%;
+    margin: auto;
+    align-items: stretch;
+    border-color: rgb(204, 204, 204);
+ }
+ .block ul {
+    list-style-type: none;
+    padding-top: 32px;
+    padding-left: 10px;
+ }
+ .block ul li span svg{
+    fill: currentColor;
+    height: 24;
+    width: 24;
+    vertical-align: text-bottom;
+ }
+ .block ul li{
+    line-height: 22px;
+    font-size: 14px;
+ }
+ .block button{
+    display: block;
+    
+    margin: 10px 0px;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+ }
+ .block p:last-child{
+    margin-top: 16px;
+    margin-left: 10px;
+    font-size: 12px;
+ }

@@ -1,0 +1,50 @@
+/* div{
+  border: 2px solid red;
+  height: 200px;
+  width: 200px;
+   background-color: black; 
+  animation-name: demo;
+  animation-duration: 5sec;
+  animation-iteration-count: infinite;
+} 
+
+/* @keyframes demo{
+  from {
+    background-image: radial-gradient(red, yellow, green);
+  }
+  to {
+    background-image: radial-gradient(blue, black, crimson);
+  }
+} */
+div{
+  border: 2px solid red;
+  height: 200px;
+  width: 200px;
+  /* background-color: black; */
+  animation-name: demo;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  /* animation: demo 3s ease 3s infinite; */
+}
+
+@keyframes demo {
+  0%{
+    background-color: red;
+    transform: rotate(60deg);
+  }
+  50%{
+   background-color: yellow;
+   transform: rotate(110deg);
+  }
+  70%{
+    background-color: aqua;
+    transform: rotate(150deg);
+  }
+  100%{
+    background-color: green;
+    transform: rotate(180deg);
+  }
+}
