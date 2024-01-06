@@ -198,22 +198,34 @@ margin-top: 13px;
   margin-left: 10px;
 }
 #main1{
-  height: 600px;
   border: 2px solid red;
+  height: 600px;
 }
-
-#main1 .header {
-  /* border: 2px solid red; */
+.header{
+  border: 2px solid;
   width: 80%;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 70px;
 }
-
 .header h2{
-  text-align: center;
-  counter-reset: #032d60;
+  color: #032d60;
   font-size: 32px;
   letter-spacing: -0.004em;
   line-height: 40px;
   text-align: center;
+}
+#cards{
+  /* border: 2px solid; */
+  width: 95%;
+  margin: auto;
+  height: 450px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.card{
+  border: 2px solid;
+  height: 90%;
+   
 }
