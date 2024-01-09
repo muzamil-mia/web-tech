@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav {
+  border: 2px solid;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  width: 90px;
+  height: 90px;
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
+.list ul{
+  list-style-type: none;
+  /* border: 2px solid; */
+  display: inline-flex;
+  width: 700px;
+  justify-content: space-around;
+}
+.list ul li{
+  /* border: 1px solid; */
+  padding: 5px 5px;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: .85em;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  line-height: 2em;
+  margin: 0 0 0 30px;
+}
+.list ul li:first-child{
+  color: grey;
+}
+.list ul li:hover{
+  color: grey;
+  cursor: pointer;
+}
+
+#section1{
+  border: 2px solid;
+  height: 500px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510764242245-JIWZSYBY8CYHZBOEUGAM/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg?format=1500w);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#section1 header{
+  /* border: 2px solid; */
+  width: 70%;
+}
+header h1{
+  /* border: 2px solid; */
+  width: 500px;
+  margin: 80px 0 0 60px;
+  background-color: rgba(255, 255, 255, .6);
+  font-size: 2.8em;
+  font-family: futura-pt;
+  font-weight: 400;
+  line-height: 1em;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+}
+#section1 p{
+  width: 700px;
+  margin: 40px 0 0 60px;
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, .8);
+  font-size: normal;
+  font-family: futura-pt;
+  font-weight: 400;
+  line-height: 1.6em;
+
+}
+/* 
+} */
+
+.article{
+  width: full;
+  /* border: 2px solid red; */
+  height: 400px;
+  background-color: #fff;
+}
+.article{
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+}
+.article h1{
+  text-align: start;
+  padding-top: 80px;
+  font-size: 2em;text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  color: #16161d;
+}
+.article p{
+  text-align: start;
+  padding-top: 20px;
+}
+
+#section2{
+  border: 2px solid;
+  height: 600px;
+  position: relative;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510765722553-76QEADJUAJRSEYMGLNSA/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg?format=2500w);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.sub-section2{
+  /* border: 2px solid; */
+  width: 600px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.sub-section2 h1{
+  letter-spacing: 0.179487em;
+  font-size: 2.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1em;
+  z-index: inherit;
+  color: #171717;
+  background-color: rgba(255, 255, 255, .8);
+}
+.article1{
+  width: 80%;
+  height: 450px;
+  margin: auto;
+}
+.article1 h1{
+  text-align: start;
+  padding-top: 80px;
+  font-size: 2em;text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  color: #16161d;
+}
+.article1 p{
+  text-align: start;
+  padding-top: 20px;
+}
+#section3{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510766494470-KZDDR11SFE43N4RHTCLR/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg?format=2500w");
+  height: 600px;
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sub-section3 {
+  width: 600px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.sub-section3 h1{
+  letter-spacing: 0.179487em;
+  font-size: 2.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1em;
+  z-index: inherit;
+  color: #171717;
+  background-color: rgba(255, 255, 255, .8);
+}
+.article2{
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+.article2 h1{
+  text-align: start;
+  padding-top: 80px;
+  font-size: 2em;text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  color: #16161d;
+}
+.article2 p{
+  text-align: start;
+  padding-top: 20px;
+}

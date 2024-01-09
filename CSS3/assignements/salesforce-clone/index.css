@@ -366,8 +366,8 @@ article p{
 }
 
 #main3{
-  height: 500px;
-  border: 2px solid red;
+  height: 450px;
+  /* border: 2px solid red; */
   width: 100%;
 }
 #main3 section{
@@ -388,6 +388,13 @@ article p{
   width: 400px;
   margin: auto;
   margin-top: 10px;
+}
+#main3 header h2{
+  color: #032d60;
+  font-size: 32px;
+  letter-spacing: -0.004em;
+  line-height: 40px;
+  font-weight: 500;
 }
 article p{
   color: #181818;
@@ -416,4 +423,35 @@ article p{
 #main3 button:hover{
   background-color: #032d60;
   color: white;
+}
+#section {
+  border: 2px solid;
+  height: 600px;
+}
+#section section {
+  border: 2px solid;
+  width: 70%;
+  height: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+#section section #buttons{
+  width: 60%;
+  text-align: center;
+}
+#section section #buttons button{
+  padding: 10px 20px;
+  margin: 0px 10px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 200px;
+  background-color: #fff;
+  border: solid #0176d3;
+}
+#section section #buttons button:hover{
+  background-color: #032d60;
+  color: white;
+  border: none;
 }
