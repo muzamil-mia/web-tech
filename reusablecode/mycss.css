@@ -48,3 +48,23 @@ REsources for gradients
 https://gradienthunt.com/
 https://cssgradient.io/ 
 */
+
+/* 
+  CONS OF CSS
+-> Browser compatibility: some style selectors are supported some are not.
+-> Cross Browser Issue: Some selectors behave differently in a different browser.
+-> Limited interactivity: While HTML and CSS can create a static web page, they lack the ability to create more advanced interactions that javascript can provide.
+-> Difficulty in making responsive web pages
+*/
+
+/*IMPORTANT QUESTIONS IN CSS
+1. What is css and in how many ways we can write css
+2. How to link one webpage to another webpage (@import url(''))
+3. What are selectors an explain their types
+4. Explain background-image property
+5. Explain box model, positions, z-index, opacity, display property
+6. What is the difference between visibility hidden and display none
+7. Disadvantages of css
+8. What is typography in css
+ -->the text css property groups deals with the characters, spaces, words and paragraphs. For example the text-indent property indents the first line of a text block. The letter-spacing property controls the spaces between a text block.
+*/
