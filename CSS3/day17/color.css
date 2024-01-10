@@ -1,0 +1,18 @@
+h1{
+  color: red;
+  color: #ffffff;
+  color: #ad7171;
+  color: rgb(black, crimson, blue);
+  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  color: rgba(250, 100, 200, .5);
+  color: hsl(120deg, 30%, 60%);
+  color: hsla(100deg, 30%, 10%, .7);
+}
+
+
+
+/*  Resources
+    https://htmlcolorcodes.com
+    https://colorhunt.co/
+*/

@@ -1,0 +1,23 @@
+#demo1{
+  height: 200px;
+  width: 100%;
+  border: 2px solid;
+  background: #00308F;
+}
+
+#demo2{
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+  background-image: radial-gradient(red, yellow, crimson, blue);
+}
+#demo3{
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
+  background-image: radial-gradient(circle farthest-side at 60% 60%, yellow, crimson, blue);
+}
+/* 
+REsources
+https://gradienthunt.com/
+https://cssgradient.io/ */
