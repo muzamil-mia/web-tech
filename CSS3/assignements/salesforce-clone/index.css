@@ -551,3 +551,83 @@ article p{
   width: 100%;
   vertical-align: middle;
 }
+
+#business{
+  /* border: 2px solid; */
+  height: 680px;
+}
+#business  header h2{
+  /* border: 2px solid; */
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#business div:nth-of-type(2){
+  /* border: 2px solid; */
+  height: 450px;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+#business div article{
+  /* border: 2px solid; */
+  width: 280px;
+  height: 80%;
+}
+#business div article img{
+  width: 100%;
+  height: 90%;
+  vertical-align: middle;
+}
+#business div article a{
+cursor: pointer;
+color: #032d60;
+display: block;
+text-align: center;
+font-weight: bold;
+padding-top: 10px;
+}
+#tech{
+  /* border: 2px solid; */
+  height: 500px;
+}
+#tech  header h2{
+margin-top: 50px;
+}
+#tech div:nth-of-type(2) {
+  height: 300px;
+  /* border: 2px solid; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#tech div article img{
+  width: 300px;
+  height: 200px;
+}
+#tech div article{
+  width: 350px;
+  height:300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#tech div article img{
+  height: auto;
+  width: 100%;
+}
+#tech div article p{
+  color: #181818;
+  font-size: 18px;
+  letter-spacing: -.0012em;
+  line-height: 28px;
+  text-align: start;
+}
