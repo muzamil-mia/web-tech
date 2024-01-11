@@ -631,3 +631,131 @@ margin-top: 50px;
   line-height: 28px;
   text-align: start;
 }
+#card-image{
+  /* border: 2px solid; */
+  height: 650px;
+  
+}
+#card-image article{
+  width: 90%;
+  /* border: 2px solid; */
+  height: 80%;
+  margin: auto;
+  margin-top: 50px;
+  background: url(https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=1536,953);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  border: 16px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 8px;
+}
+
+#card-image article div{
+  /* border: 2px solid; */
+  height: 500px;
+  width: 60%;
+}
+#card-image article div h2{
+  color: #032d60;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.004em;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+#card-image article div p{
+  color: #181818;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -.0012em;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+#card-image article div button{
+  display: block;
+  width: 200px;
+text-align: center;
+padding: 10px 20px;
+margin: auto;
+margin-top: 30px;
+border-radius: 4px;
+background-color: #0176d3;
+color: white;
+border: none;
+font-size: 18px;
+font-weight: bold;
+}
+#card-image article div button:hover{
+  background-color: #032d60;
+}
+#card-image article div p{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  font-weight: bold;
+}
+footer{
+  height: 450px;
+  /* border: 2px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer div{
+  flex: 1;
+  /* border: 2px solid;
+  height: 95%; */
+}
+footer .one .image{
+  /* border: 2px solid; */
+  width: 120px;
+  height: 100px;
+  margin-top: 0px;
+}
+footer .one .image img{
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+}
+footer .one .image ul {
+  display: flex;
+  flex-wrap: wrap;
+   /* border: 2px solid; */
+   margin-left: 30px;
+  
+  margin-top: 20px;
+  padding: 0; /* Remove default padding on ul */
+  height: 50px;
+  width: 300px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+footer .one .image ul li {
+  flex: 1; /* Distribute space evenly among li elements */
+  text-align: center; /* Center the content horizontally */
+ /* Adding a border color for visibility */
+}
+
+footer .one .image ul li i {
+  font-size: 28px; /* Adjust the icon size as needed */
+  margin: 10px; /* Adjust the icon margin as needed */
+}
+
+footer .two h3{
+      padding: 10px 5px;
+      margin: 30px 10px;
+}
+footer .two ul {
+  list-style: none;
+}
+footer .two ul li {
+  padding: 7px 10px;
+}

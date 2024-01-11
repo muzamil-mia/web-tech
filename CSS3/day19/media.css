@@ -1,0 +1,28 @@
+#demo{
+  height: 250px;
+  border: 2px solid; 
+}
+
+@media (min-width: 150px) and (max-width: 400px) {
+  #demo{
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+@media (min-width: 400px) and (max-width: 800px) {
+  #demo{
+    background-color: yellow;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+}
+/* shopify.com
+zoho.com
+jrecommerce.com */

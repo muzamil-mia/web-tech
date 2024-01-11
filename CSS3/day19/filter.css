@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#demo1, #demo2{
+  height: 300px;
+}
+
+#demo1{
+  /* filter: blur(5px); */
+  /* filter: brightness(10%); */
+  /* filter: contrast(70%); */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  filter: invert(70%);
+}
