@@ -154,7 +154,7 @@ background-color: #191818;
 }
 
 .page-container{
-  height: 500px;
+  height: 380px;
   border: 2px solid;
 }
 .tab-container ul{
@@ -349,7 +349,7 @@ ul li:first-child{
 }
 @media(max-width:776px){
   .max-width{
-    height: 150px;
+    height: 100px;
     /* border: 2px solid; */
     /* margin-left: 16px;
     margin-right: 16px; */
@@ -361,4 +361,20 @@ ul li:first-child{
   .max-width a img{
     height: 100%;
   }
+}
+.heading{
+  border: 2px solid;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+}
+.header h1{
+  color: #000;
+  text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+  letter-spacing: -1px;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
