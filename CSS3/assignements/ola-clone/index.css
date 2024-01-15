@@ -1,0 +1,364 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  border: 2px solid;
+  height: 400px;
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/hero-banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav {
+  height: 80px;
+  border: 2px solid;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+}
+header nav .sub-nav{
+  /* border: 2px solid #fff; */
+  height: inherit;
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-nav .left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .sub-nav div:first-child{
+  /* border: 2px solid white; */
+  width: 30%;
+  height: inherit;
+}
+.sub-nav .left div{
+  height: 90%;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width: 414px) {
+  .logo1{
+    display: none;
+  }
+ .sub-nav .left div{
+  width: 100%;
+ }
+}
+@media(max-width:930px) {
+  .sub-nav .left .logo1{
+    width: 90px;
+  }
+}
+
+
+.sub-nav .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-nav .right ul{
+  display: inline-flex;
+  /* border: 2px solid yellow; */
+  width: 600px;
+  justify-content: space-around;
+  list-style: none;
+}
+.sub-nav .right ul li{
+  width: 150px;
+  text-align: center;
+  opacity: .8;
+  color: white;
+  margin: 10px;
+  /* border: 2px solid green; */
+  padding: 12px 14px;
+background-color: #191818;
+}
+.sub-nav .right ul li:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.sub-nav .right button {
+  width: 25px;
+  height: 25px;
+ 
+  position: relative;
+  background: transparent;
+  /* border: 1px solid white; */
+  outline: none;
+  border: none;
+}
+.sub-nav .right button span {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  border-radius: 1em;
+  transition: .3s;
+}
+.sub-nav .right button span:first-child{
+  top: 0;
+  left: 0;
+  box-shadow: 0px 10px 0 white;
+}
+.sub-nav .right button span:last-child{
+  bottom: 0;
+  left: 0;
+}
+@media(min-width:767px){
+  .sub-nav .right button{
+    display: none;
+  }
+}
+@media (max-width:768px){
+  .right ul{
+    position: absolute;
+    right: 0;
+    top: 78px;
+    width: 200px;
+    height: 300px;
+    background-color: #ccc;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2em 5em;
+    transform: translateX(100%);
+    transition: .5s;
+  }
+}
+
+.right button:focus+ul{
+  transform: translateX(0%);
+  width: 100%;
+}
+
+.right button:focus span:nth-of-type(1){
+  box-shadow: none;
+  transform: rotate(40deg) translateY(13px);
+}
+
+.right button:focus span:nth-of-type(2){
+  transform: rotate(-40deg) translateY(-13px);
+}
+
+.page-container{
+  height: 500px;
+  border: 2px solid;
+}
+.tab-container ul{
+  display: flex;
+  margin-left: 175px;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  background-color: white;
+  width: 304px;
+  height: 40px;
+  align-items: center;
+}
+.tab-container ul li{
+  font-size: 14px;
+  line-height: 20px;
+  opacity: .7;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+ul li:first-child{
+  opacity: 1;
+}
+
+.main-container{
+  padding: 24px 2px 24px 16px;
+  position: relative;
+  width: 70%;
+  /* border: 2px solid; */
+  background-color: #F2F4F6;
+  margin: auto;
+}
+
+.sub-main-container{
+  display: flex;
+}
+.card{
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 12px 62px 12px 48px;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0 16px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.dot.green::before{
+  background-color: #92C83E;
+}
+.card.dot::before{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 24px;
+  width: 8px;
+  height: 8px;
+  content: '';
+  border-radius: 50%;
+}
+.input{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.value{
+  border: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 27px;
+  width: 100%;
+  margin-top: -2px;
+  height: 32px;
+}
+.current-location-icon{
+  position: absolute;
+  right: -43px;
+}
+.seperator{
+  display: none;
+}
+.dot.red:before{
+  background-color: #E97550;
+}
+.ow-button-container{
+  width: 100%;
+}
+.ow-button{
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg),radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000 0%, #222222 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 292px;
+  box-shadow: -3px 3px 0 #32c86e;
+  margin: 20px 0;
+  margin: 0 16px;
+  text-align: left;
+  padding: 18px;
+  border: none;
+}
+.search{
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.forward-icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 24px;
+
+}
+.cabs{
+  color: #32c86e;
+}
+@media(max-width:910px){
+  .tab-container ul{
+    background: #F2F4F6;
+    width: 100%;
+  }
+}
+@media(max-width:910px){
+  .sub-main-container{
+    display: block;
+  }
+    .tab-container ul{
+      margin-left: 0;
+    }
+  .main-container{
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 8px;
+  }
+  .card{
+    margin: 0;
+    border: none !important;
+    width: 100%;
+    padding: 16px 62px 16px 50px;
+  }
+  .input{
+    justify-content: flex-start;
+  }
+  .value{
+    width: 100%;
+  }
+  .seperator{
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 68px;
+    left: 70px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .ow-button{
+    background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg) no-repeat 10px 16px/80% #000;
+    width: 100%;
+  }
+}
+
+.max-width{
+  max-width: 70%;
+  /* border: 2px solid; */
+  height: 200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.max-width a{
+  display: block;
+  overflow: hidden;
+}
+.max-width a img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+@media(max-width:776px){
+  .max-width{
+    height: 150px;
+    /* border: 2px solid; */
+    /* margin-left: 16px;
+    margin-right: 16px; */
+  }
+  .max-width a{
+    /* border: 2px solid; */
+    height: 100%;
+  }
+  .max-width a img{
+    height: 100%;
+  }
+}
