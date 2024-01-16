@@ -326,7 +326,7 @@ ul li:first-child{
   }
   .ow-button{
     background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg) no-repeat 10px 16px/80% #000;
-    width: 100%;
+    width: 275px;
   }
 }
 
@@ -370,6 +370,14 @@ ul li:first-child{
   max-width: 700px;
   margin: auto;
 }
+@media(max-width:767px){
+  .heading{
+    display: flex;
+    text-align: initial;
+    justify-content: flex-start;
+    margin: 16px auto;
+  }
+}
 .header h1{
   color: #000;
   text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
@@ -377,4 +385,89 @@ ul li:first-child{
   font-size: 48px;
   font-weight: 500;
   margin-bottom: 50px;
+}
+.stastics{
+  /* border: 2px solid; */
+  width: 85%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-column-center{
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-column-center .icon{
+  /* border: 2px solid; */
+  width: 80px;
+  height: 80px;
+  background-color: #fafafa;
+}
+.bx{
+  font-size: 80px;
+  color: #32c86e;
+}
+.flex-column-center .right{
+  /* border: 2px solid; */
+}
+.flex-column-center .right p:first-child, p:nth-of-type(2){
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+}
+.flex-column-center .right p:last-child{
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  max-width: 60%;
+  margin: auto;
+  /* border: 2px solid; */
+  text-align: center;
+}
+@media(max-width:767px){
+  .stastics-flex-mb{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+  .flex-column-center{
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
+  .flex-column-center .right p{
+    display: flex;
+    text-align: initial;
+    justify-content: flex-start;
+  }
+  .flex-column-center .right p:first-child,p:nth-last-of-type(2){
+    margin: 5px 0px;
+    letter-spacing: -0.01em;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .header h1{
+    font-size: 20px;
+    margin: 24px;
+    margin-left: 0;
+    font-size: 24px !important;
+  }
+  .flex-column-center .right p:last-child{
+    margin: 5px 0;
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    text-align: start;
+  }
 }
