@@ -1,0 +1,48 @@
+/*here we will se width in percentage and fontsize in em and rem*/
+
+
+*{
+  font-size: 10px;
+}
+
+
+header{
+  background-color: rgb(149, 176, 199);
+  padding: 45px 0;
+  color: #fff;
+  /* width: 500px; */
+}
+
+section{
+  padding: 45px 0;
+}
+.container{
+  width: 90%; /*this is 50% of its parent here parent has width of screen width that is 100% therefore the width here is 50% of screen width*/
+  margin: 0 auto;
+  border: 2px solid;
+  max-width: 620PX;
+}
+.container img{
+  /* width: 250PX; */
+  width: 100%;
+}
+.section-two{
+  background-color: aquamarine;
+  color: black;
+}
+.section-one{
+  /* font-size: 20px; */
+  font-size: 2em;
+}
+ul{
+  font-size: 1.5em;
+}
+ul li{
+  font-size: 1em; /* this means copy from parent match the font size of parent*/
+  font-size: 1.5em;/* 150% of parent*/
+  /*here the font size of parent is 20px or 1.5em of ul or 2em of .section-ne therefore the childrens font size is 30px or accordingly */
+
+  font-size: 1.5rem;
+  /* rem is always related to the root of document which is html element suppose root has font size 10px here my font size will be 15px = 1.5em*/
+  font-size: 15px;
+}
