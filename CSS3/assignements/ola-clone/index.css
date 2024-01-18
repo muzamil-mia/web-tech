@@ -621,17 +621,19 @@ video{
 }
 .store{
   margin-top: 50px;
-  /* border: 2px solid; */
+  border: 2px solid;
   background: rgb(241, 246, 233);
   margin-bottom: 50px;
 }
 .sub-store{
   display: flex;
   width: 70vw;
-/* border: 2px solid; */
-margin: auto;
-margin-bottom: 50px;
+border: 2px solid;
+margin: 50px auto;
+padding-bottom: 50px;
 gap: 20px;
+
+
 }
 .image{
   height: 270px;
@@ -642,12 +644,12 @@ gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   /* border: 2px solid; */
 }
 .store-left .image{
   width: 100%;
-  height: auto;
+  
 }
 
 .store-left .image img{
@@ -671,7 +673,7 @@ height: auto;
   /* border: 2px solid; */
   width: 70%;
   margin: auto;
-  margin-top: 190px;
+ padding-top: 86px;
 }
 .para{
   display: flex;
@@ -730,7 +732,7 @@ height: auto;
    height: auto;
   }
   .store-right{
-    margin-top: 50px;
+    
     width: 100%;
   }
   .store-right .para{
@@ -741,11 +743,24 @@ height: auto;
     margin-bottom: 24px !important;
     font-size: 32px !important;
     max-width: 296px;
+    margin-right: 30px;
   }
   .store-right .cards{
     width: 360px;
   }
-  .store-right .cards div>p{
-text-align: center;
+  .store-right .cards div{
+    justify-content: start;
+    align-items: start;
   }
+  .store-right .cards div>p{
+text-align: start;
+  }
+}
+.grid{
+  border: 2px solid;
+}
+.sub-grid{
+  width: 70%;
+  margin: auto;
+  border: 2px solid;
 }
