@@ -1,0 +1,11 @@
+
+/* div{
+  border: 2px solid;
+} */
+
+.grid{
+  border: 2px solid red;
+}
+.g-col-4, .g-col-6, .g-col-md-4{
+  border: 2px solid;
+}
