@@ -621,14 +621,14 @@ video{
 }
 .store{
   margin-top: 50px;
-  border: 2px solid;
+  /* border: 2px solid; */
   background: rgb(241, 246, 233);
   margin-bottom: 50px;
 }
 .sub-store{
   display: flex;
   width: 70vw;
-border: 2px solid;
+/* border: 2px solid; */
 margin: 50px auto;
 padding-bottom: 50px;
 gap: 20px;
@@ -763,4 +763,48 @@ text-align: start;
   width: 70%;
   margin: auto;
   border: 2px solid;
+  display: flex;
+}
+.sub-grid>div{
+  border: 2px solid;
+  flex: 1;
+}
+.sub-grid .card1 p:first-child{
+  font-weight: 200;
+  line-height: 28px;
+  font-size: 24px;
+  text-align: start;
+}
+.card1 p:nth-of-type(2){
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  margin-top: 12px;
+  max-width: 300px;
+  text-align: start;
+}
+.sub-grid .card1{
+  flex: 2;
+}
+
+ .card1 a{
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  color: #16AA51;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sub-grid div svg{
+max-height: 100%;
+max-width: 100%;
+
+}
+@media(max-width:768px){
+  .sub-grid{
+    flex-direction: column;
+  }
 }
