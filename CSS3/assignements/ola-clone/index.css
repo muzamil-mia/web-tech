@@ -805,6 +805,11 @@ max-width: 100%;
 }
 @media(max-width:768px){
   .sub-grid{
-    flex-direction: column;
+    /* flex-direction: column; */
+   overflow-x: auto;
+  }
+  .card2 svg{
+    object-fit: cover;
+    /* height: 200px; */
   }
 }

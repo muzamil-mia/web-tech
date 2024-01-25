@@ -49,10 +49,27 @@ showMessage('muzamil', "what's up?")
 
 
 
+/*
+let userName = 'john';
+
+function showMessage1() {
+    userName = "Bob";  //here it will change the outer variable
+
+    let message = 'hello, ' + userName;
+    alert(message); //hello bob
+}
+
+alert(userName); //john
+showMessage1();
+alert(userName); //bob
+
+*/
+
+/*
 let from = "muzamil";
 
 function showMessage(from, text) {
-    from = '*' + from + '*';
+    from = '*' + from + '*';  //here we are changing the local variable only
     alert(from + ': ' + text);
 }
 
@@ -61,16 +78,33 @@ function showMessage(from, text) {
 alert(from);
 showMessage(from, 'hello');
 alert(from);
+*/
 
-let userName = 'john';
 
-function showMessage1() {
-    userName = "Bob";
-
-    let message = 'hello, ' + userName;
-    alert(message);
+/*
+function showMessage(message, from) { //calling this function while passing only one argument in calling statement second parameter value will be undefined
+    alert(message + ': ' + from);
 }
 
-alert(userName);
-showMessage1();
-alert(userName);
+showMessage("hello");
+*/
+
+
+/*
+function showMessage(message, from = "muzamil") {
+    alert(message +": "+from);
+}
+showMessage("hello");
+//showMessage("hello", undefined);
+*/
+
+//in js a default parameter is evaluated every time the function is called without the respective parameter.
+//in the example below anotherFunction() isn't called at all if the from 
+function showMessage(message, from = anotherMessage()) {
+    alert(message +": "+from);
+}
+
+
+// showMessage("hello");//no output
+// showMessage("hello", "muzamil"); //hello muzamil
+showMessage("hello", undefined); // no output
