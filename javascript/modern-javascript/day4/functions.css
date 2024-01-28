@@ -1,0 +1,19 @@
+/* @font-face {
+  font-family: new;
+  src: url(./futur.ttf);
+} */
+
+@font-face {
+  font-family: new;
+  src: url(./NeueHaasDisplayLight.ttf);
+}
+@font-face {
+  font-family: new2;
+  src: url(./Futura\ Heavy\ font.ttf);
+}
+p{
+  font-family: new;
+}
+h2{
+  font-family: new2;
+}
