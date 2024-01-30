@@ -319,6 +319,7 @@ let b = 200;
 console.log(b);//200
 */
 
+/*
 const c = 100;
 function d() {
     const c = 200;
@@ -326,3 +327,5 @@ function d() {
 }
 d();
 console.log(c);
+*/
+
